@@ -1,0 +1,54 @@
+<div class="regit">
+    <div class="form">
+      <form id="myForm" action="src/singin.php" method="POST">
+        <h2 class="autoriz">Авторизация</h2>
+        <input type="text" class="vvod" name="login" id="username" placeholder="Логин"  />
+        <br><br>
+        <input type="password" class="vvod" name="password" id="password" placeholder="Пароль" />
+        <?php if(isset($_SESSION['validation']['result'])) {echo $_SESSION['validation']['result'];};?>
+        <br>
+         <button type="submit" class="submitbtn" name="send">Войти</button>
+        <p class="message">Не зарегистрированы? <a href="#">Создайте аккаунт</a></p><br>
+        
+      </form>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+<h3>Подвалчик</h3>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="preAut">
+    <div class="aut" >
+      <form class="formAut" id="myForm" action="src/singup.php" method="POST">
+        <h2 class="textAut" >Регистрация</h2>
+        <div class="mb-3">
+          <label for="form-control" class="form-label">Логин</label>
+          <input type="text" class="form-control" name="login" >
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Пароль</label>
+          <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+          <?php if(isset($_SESSION['validation']['result'])) {echo $_SESSION['validation']['result'];};?>
+        </div>
+        <div class="d-grid gap-2">
+          <button class="btn btn-outline-success" type="submit" name="send">Войти</button>
+          <p class="message">Не зарегистрированы? <a href="#">Создайте аккаунт</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
