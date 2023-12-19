@@ -9,6 +9,19 @@ body{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .wrapper{
     width: 80vw;
     background: #65c6a61c;
@@ -17,6 +30,7 @@ body{
     flex-direction: column;
     margin: 0 auto;
     border-radius: 10px;
+    
 }
 .section1{
     display: grid; 

@@ -12,7 +12,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Webleb</title>
       <link rel="stylesheet" href="css/Authorization.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
 <body>
 
@@ -50,18 +50,72 @@
           <?php if(isset($_SESSION['validation']['result'])) {echo $_SESSION['validation']['result'];};?>
         </div>
         <div class="d-grid gap-2">
-          <button class="btn btn-outline-success" type="submit" name="send">Войти</button>
+          <button class="btn btn-outline-success btn-block" type="submit" name="send">Войти</button>
           <p class="message">Не зарегистрированы? <a href="registration.php">Создайте аккаунт</a></p>
         </div>
       </form>
     </div>
   </div>
 </div>
+<div class="fooblok">
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <hr>
+    <!-- Left -->
 
-<div class="fixed-bottom">
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
 
-</div>
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>WebLeb
+          </h6>
+          <p>
+          Инструмент, который позволяет создавать и организовывать тесты для проверки знаний или навыков учащихся, сотрудников или других пользователей.
+          </p>
+        </div>
+        <!-- Grid column -->
 
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-4 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Информация
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Справка</a>
+          </p>
+         
+        </div>
+        <!-- Grid column -->
+
+        
+
+        
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="#">WebLeb</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</fooblok>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/nav.js"></script>
 </body>

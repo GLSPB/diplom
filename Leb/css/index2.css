@@ -87,12 +87,11 @@ nav{
     margin: 0 auto;
     border-radius: 10px;
     padding-bottom: 5vh;
+    padding: 1vw;
 }
 
 .section1{
-    display: grid; 
-    grid-template-columns: 1fr 1fr;
-    gap: 7px 5px; 
+    
 }
 .block{
     padding: 5px;

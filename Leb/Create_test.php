@@ -32,6 +32,8 @@
             <div class="line3"></div>
         </div>
         <ul class="nav-links">
+          <li><a href="ProfilPrep.php">Профиль</a></li>
+
         </ul>
     </nav>
   </div>
@@ -93,6 +95,67 @@
 
 
 </div>
+
+<div class="fooblok" style="background-color: #131418;">
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <hr>
+    <!-- Left -->
+
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>WebLeb
+          </h6>
+          <p>
+          Инструмент, который позволяет создавать и организовывать тесты для проверки знаний или навыков учащихся, сотрудников или других пользователей.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-4 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Информация
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Справка</a>
+          </p>
+         
+        </div>
+        <!-- Grid column -->
+
+        
+
+        
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="#">WebLeb</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<fooblok>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/nav.js"></script>

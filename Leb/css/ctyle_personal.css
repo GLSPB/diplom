@@ -7,9 +7,21 @@ body{
    margin: 0;
    padding: 0;
 }
+.wrapper{
+   width: 80vw;
+   background: #65c6a61c;
+   min-height: 80vh;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   border-radius: 10px;
+   padding: 1vw;
+ }
 .contnav{
   position: sticky;
   top: 0px;
+  z-index: 100;
+
 }
 
 
@@ -47,11 +59,15 @@ nav{
    height: 5rem;
    width: 5rem;
 }
+.card{
+   position: static;
+}
 
 /*Styling Links*/
 .nav-links{
   display: flex;
   list-style: none;
+  margin: 0;
   width: 88vw;
   padding: 0 0.7vw;
   justify-content: flex-end; 
@@ -118,6 +134,11 @@ nav{
 }
 .hamburger{
    display: none;
+}
+
+.my-flex-cont{
+   display: flex;
+    justify-content: space-between;
 }
 
 /*Stying for small screens*/
@@ -242,12 +263,3 @@ nav{
 
 
 
-.wrapper{
-  width: 80vw;
-  background: #65c6a61c;
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  border-radius: 10px;
-}

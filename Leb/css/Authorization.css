@@ -8,7 +8,15 @@ body{
     height: 100%;
 
 }
-
+.fooblok {
+  background-color: #131418;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
 
 .wrapper{
     width: 80vw;
